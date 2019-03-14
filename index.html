@@ -1,204 +1,267 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>表格画线演示</title>
-	<script src="js/jquery.js"></script>
-	<style>
-		html,body,*{
-			padding:0px;margin:0px;height:100%;
-		}
-		
-		.panel{
-			height:1100px;width:1000px;background-color: #ccc;
-		}
-
-		.header{
-			height:100px;background-color: yellow;width:100%;margin:0 auto;
-		}
-
-		.content{
-			width:100%;
-		}
-		table{
-			width:100%;
-		}
-		td{
-			width:10px;height:10px;border:1px solid #fff
-		}
-		tr{
-			height:10px
-		}
-		.select{
-			background-color:red;
-		}
-	</style>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>画线演示</title>
+    <script src="js/jquery.js"></script>
+    <style>
+        table{
+            margin:0 auto;
+        }
+        td{
+            width: 10px;height:10px; background-color: #3FB618;border:1px solid #fff;
+        }
+        .select{
+            background-color: red;
+        }
+        .header{
+            width:100%;height:100px;background-color: #0e90d2;text-align: center;font-size: 30px;
+        }
+        .content{
+            width:100%;height:auto;
+        }
+    </style>
 </head>
 <body>
-<center>
-	<div class="panel">
-		<div class="header" align="center"><h2>画线测试</h2></div>
-		<div class="content">
-			<table class="table">
-				<tr>
-					<td></td>
-					<td class="select"></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td class="select"></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td></td>
-					<td class="select"></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td class="select"></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td class="select"></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td class="select"></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td></td>
-					<td class="select"></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td class="select"></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td class="select"></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td class="select"></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
-			</table>
-		</div>
-	</div>
-</center>		
-	
+<div class="header">
+    <br>
+    画线演示
+</div>
+<div class="content">
+    <table>
+        <tr>
+            <td class="select"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="select"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="select"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="select"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="select"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="select"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="select"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="select"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="select"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="select"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</div>
+
 </body>
 </html>
+<script src="js/drawLine.js"></script>
 <script>
-    // var c = document.getElementById("canvas");//初始化
-    // var ctx = c.getContext("2d");
-    // c.lineWidth=1;
-    // c.strokeStyle="#eeddcc";
-    // ctx.moveTo(100,100);
-    // ctx.lineTo(200,200);
-    // ctx.stroke();
-    $(".select").each(function(){
-        var td = $(this);
-        console.log("position:"+JSON.stringify(td.position()));
-        if(td.next()){
-            var x1 =td.position().left-250;
-            var y1 =td.position().top-100;
-            var x2 =td.next().position().left-250;
-            var y2 =td.next().position().top-100;
-            var width  = 100;
-            var height = 100;
-            var top = td.position().top<td.next().position().top?td.position().top:td.next().position().top;
-            var left = td.position().left<td.next().position().left?td.position().left:td.next().position().left;
-            var c = document.createElement("canvas");
-            c.lineWidth=10;
-            c.strokeStyle="#eeddcc";
-            var ctx = c.getContext("2d");
-            $(c).attr('width','100px');
-            $(c).attr('height','100px');
-            $(c).css({position:'absolute',left:left,top:top});
-            $(c).appendTo('.content');
-            ctx.moveTo(x1, y1);//起始位置
-            ctx.lineTo(x2, y2);//停止位置
-            ctx.stroke();
-		}
-    });
-
+    var panel = 'table'; //容器的选择器
+    var select = '.select'; //要连接的目标选选择器
+    var lineWidth = 2; //线的宽度
+    var style = "#222"; //线的样式
+    drawBrokenLine(panel,select,lineWidth,style);
 </script>
